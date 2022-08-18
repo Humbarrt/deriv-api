@@ -14,6 +14,7 @@ import {
     APIError,
     ConstructionError,
 } from './errors';
+import WebSocket from 'ws'; 
 
 /**
  * The minimum functionality provided by DerivAPI, provides direct calls to the
